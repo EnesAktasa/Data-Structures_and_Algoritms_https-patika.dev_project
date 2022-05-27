@@ -1,0 +1,83 @@
+The Binary Search Tree steps of array [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+The root of tree is our first node. Thus; [7]
+If the next node is less than root, write it on left arm, if not write it on right arm. 
+The root is 7
+
+
+5<7 write it on left;                   7
+                                      /
+                                     5
+1<7 and 1<5 write it on left        /
+                                   1
+                                   
+                                   
+8>7 write it on right                          7
+                                              / \
+                                             5    8
+                                            /
+                                           1
+                                           
+3<7 and 3<5 and 3>1 write it on right            7        
+                                               / \
+                                              5   8
+                                            /
+                                           1
+                                             \
+                                              3
+                                              
+                                              
+                                              
+ 6<7 and 6>5 write it on right of 5            7        
+                                               / \
+                                              5   8
+                                            /  \
+                                           1     6
+                                             \
+                                              3     
+                                              
+                                              
+                                              
+ 0<7,5,1 so write it on left of 1               7
+                                               / \
+                                              5   8
+                                            /   \
+                                           1     6 
+                                         /   \
+                                        0     3 
+                                        
+                                        
+                                      
+                                                    
+  9>7 so write it on right of 7                   7         
+  9>8 so write it on right of 8                /    \
+                                              5       8
+                                            /   \       \
+                                           1     6        9
+                                          /   \                    
+                                        0     3 
+                                        
+                                        
+                                        
+  4<7 so write it on left of 7                     7
+  4<5  so write it on left of 5                 /    \
+  4>1 so write it on right of 1                5       8
+  4>3 so write it on right of 3              /   \       \
+                                           1     6        9
+                                          /   \                    
+                                        0      3 
+                                                 \
+                                                   4
+                                                   
+                                                   
+  
+    2<7 so write it on left of 7                 7   
+    2<5 so write it on left of 5               /    \
+    2>1 so write it on right of 1
+    2<3 so wirte it on left of 3              5       8
+                                            /   \       \
+                                           1     6        9
+                                          /   \                    
+                                        0      3 
+                                              /  \
+                                             2    4
+  
