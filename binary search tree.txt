@@ -4,12 +4,15 @@ If the next node is less than root, write it on left arm, if not write it on rig
 The root is 7
 
 
-5<7 write it on left;                   7
+5<7 write it on left of 7;             7
                                       /
-                                     5
-1<7 and 1<5 write it on left        /
-                                   1
-                                   
+                                     5 
+                              
+1<7 and 1<5 write it on left              7    
+                                         /
+                                        5
+                                       /
+                                      1
                                    
 8>7 write it on right                          7
                                               / \
